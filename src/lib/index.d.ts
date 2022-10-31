@@ -29,9 +29,13 @@ export interface TreeNode {
    */
   hidden?: boolean;
   /**
-   * Determines whether the node is undeletable when `useRowDelete` is `true`.   
+   * Determines whether the node is undeletable when `useRowDelete` is `true`.
    */
   undeletable?: boolean;
+  /**
+   * Determines whether the node is active.
+   */
+  active?: boolean;
 }
 
 export interface TreeProps {

@@ -9,6 +9,7 @@ const initNodes = (data, parentNode) => {
     let newNode = {
       checked: isCheckedParent ? true : false,
       expanded: false,
+      active: false,
       indeterminate: false,
       ...node,
     };

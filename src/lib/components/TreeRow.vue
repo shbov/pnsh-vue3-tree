@@ -1,6 +1,9 @@
 <template>
   <li
     class="tree-row"
+    :class="{
+      active: node.active
+    }"
     :style="{
       gap: `${gap}px`,
       paddingLeft: `${indentSize}px`,
@@ -148,6 +151,7 @@ export default {
     node: {
       type: Object,
       required: true,
+      active: false
     },
     indentSize: {
       type: Number,
