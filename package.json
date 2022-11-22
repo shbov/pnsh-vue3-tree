@@ -1,7 +1,7 @@
 {
   "name": "pnsh-vue3-tree",
   "description": "A customizable vuejs tree viewer.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "seo.do",
     "email": "opensource@seo.do"
@@ -15,9 +15,9 @@
     "lint-fix": "eslint --fix ./src --ext .vue,.js"
   },
   "bugs": {
-    "url": "https://github.com/teamseodo/vue3-tree/issues"
+    "url": "https://github.com/shbov/pnsh-vue3-tree/issues"
   },
-  "homepage": "https://github.com/teamseodo/vue3-tree#readme",
+  "homepage": "https://github.com/shbov/pnsh-vue3-tree#readme",
   "main": "./dist/vue3-tree.cjs",
   "module": "./dist/vue3-tree.mjs",
   "jsdelivr": "./dist/vue3-tree.js",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/teamseodo/vue3-tree.git"
+    "url": "https://github.com/shbov/pnsh-vue3-tree.git"
   },
   "keywords": [
     "vue",
