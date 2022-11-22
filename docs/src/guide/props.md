@@ -8,15 +8,16 @@
 
 **description:** An array of nodes to show. Available properties of a node object:
 
-| Key                                 |       Type       | Description                                                                           |
-| ----------------------------------- | :--------------: | ------------------------------------------------------------------------------------- |
-| id <small>**(required)**</small>    | number \| string | Used to identify the node within the tree. Its value must be unique in a nodes array. |
-| label <small>**(required)**</small> |      string      | Used to display the option.                                                           |
-| checked                             |      boolean     | Determines whether the node is selected.                                              |
-| expanded                            |      boolean     | Determines whether the node is expanded.                                              |
-| hidden                              |      boolean     | Determines whether the node is hidden.                                                |
-| undeletable                         |      boolean     | Determines whether the node is undeletable when `useRowDelete` is `true`.              |
-| nodes                               |      Array       | Array of node objects.                                                                |
+| Key                                 |      Type       | Description                                                                           |
+|-------------------------------------|:---------------:|---------------------------------------------------------------------------------------|
+| id <small>**(required)**</small>    | number \ string | Used to identify the node within the tree. Its value must be unique in a nodes array. |                                                                    |
+| label <small>**(required)**</small> |     string      | Used to display the option.                                                           |
+| checked                             |     boolean     | Determines whether the node is selected.                                              |
+| expanded                            |     boolean     | Determines whether the node is expanded.                                              |
+| hidden                              |     boolean     | Determines whether the node is hidden.                                                |
+| undeletable                         |     boolean     | Determines whether the node is undeletable when `useRowDelete` is `true`.             |
+| nodes                               |      Array      | Array of node objects.                                                                |
+| active                              |     boolean     | Determines whether the node is active                                                 |
 
 ### `indentSize`
 
